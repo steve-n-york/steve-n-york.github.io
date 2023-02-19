@@ -1,7 +1,7 @@
 {
   "blogs": [
     {
-      "title": "SFMC Admin Series",
+      "title": "SFMC Admin Series<br><br>Part 1: User Setup",
       "tag": "SFMC Administrator",
       "teaser": "So you've taken the leap and purchased a brand new SFMC account… Cheers! Now, you're looking to get your account up and running. If you don't have experience with SFMC migrations or administration, it can be a daunting task to say the least. In this blog series...",
       "link": "https://steve-n-york.medium.com/sfmc-admin-series-part-1-user-setup-986205af5f50"
