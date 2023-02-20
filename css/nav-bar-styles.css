@@ -86,7 +86,7 @@
 }
 
 .profile-cta:active {
-    transform: scale(.98);
+    background: #f0b31d;
 }
 
 
