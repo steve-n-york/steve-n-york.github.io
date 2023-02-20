@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang=en>
+
+<head>
+    <meta charset="utf-8">
+    <title>Steve N. York | SFMC SME</title>
+    <meta name="description" content="steve-n-york.github.io">
+    <meta name="author" content="Steve N York">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i"
+        rel="stylesheet">
+    <link rel="icon" type="image/png" href="images/home/mcdev_favicon.gif">
+    <!--STYLES-->
+    <link id="theme" rel="stylesheet" href="css/main-styles.css">
+    <link id="theme" rel="stylesheet" href="css/nav-bar-styles.css">
+    <link id="theme" rel="stylesheet" href="css/sub-nav-bar-styles.css">
+    <link id="theme" rel="stylesheet" href="css/blogs-styles.css">
+    <!--JAVASCRIPT-->
+    <script type="text/javascript" src="js/scripts.js"></script>
+</head>
+
+<body>
+    <!--NAV BAR START-->
+    <nav id="main-navbar">
+        <div id="main-navbar-left">
+            <img id='logo' src="./images/home/sfmcdev_logo.gif">
+            <a class='nav-links' href="https://www.linkedin.com/in/steve-n-york/" target="_blank">LinkedIn</a>
+            <a class='nav-links' href="https://github.com/steve-n-york" target="_blank">GitHub</a>
+        </div>
+        <div id="main-navbar-right">
+            <img id="profile-pic" src="./images/home/snyork_profile_pic.jpg">
+            <span style="font-size: 14px; font-weight: 500;">Steve N York</span>
+        </div>
+        <button id="hamb-menu-btn">
+            <div class='hamb-menu'></div>
+            <div class='hamb-menu'></div>
+            <div class='hamb-menu'></div>
+        </button>
+    </nav>
+    <!--[MOBILE] HAMBURGER MENU BTN-->
+    <!--NAV BAR END-->
+    <div id="sub-nav-tab">RELATED&nbsp;SKILLS&nbsp;▼</div>
+    <!--SUB NAV BAR START-->
+    <div id="sub_nav_bar">
+        <table class="sub_nav_ghost_padding" width="100%" border="0" cellPadding="0" cellSpacing="0">
+            <tbody>
+                <tr height="25">
+                    <td> </td>
+                </tr>
+            </tbody>
+        </table>
+        <table id="sub_nav_table" width="100%" border="0" cellPadding="0" cellSpacing="0">
+            <tbody>
+                <tr>
+                    <td class="sub_nav_blocks">
+                        PLATFORM<br>EXPERTISE
+                    </td>
+                    <td class="sub_nav_blocks">
+                        SFMC<br>ADMINISTRATION
+                    </td>
+                    <td class="sub_nav_blocks">
+                        SOLUTION<br>DEVELOPMENT
+                    </td>
+                    <td class="sub_nav_blocks">
+                        DATA<br>MANAGEMENT
+                    </td>
+                    <td class="sub_nav_blocks">
+                        WORKFLOW<br>OPTIMIZATION
+                    </td>
+                    <td class="sub_nav_blocks">
+                        TEAM<br>MANAGEMENT
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <table class="sub_nav_ghost_padding" width="100%" border="0" cellPadding="0" cellSpacing="0">
+            <tbody>
+                <tr height="30">
+                    <td> </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <!--SUB NAV BAR END-->
+    <!--BLOGS SECTION START-->
+    <main>
+        <div id="blog_content">
+            <div class="blogs_section_header">BLOG POSTS</div>
+            <section id="blogs_section">
+                <article id="blog_[i]" class="blogs">
+                    <div class="blog_header"><strong class="blog_title" style="color: white;">${blog.title}</strong></div>
+                    <div class="blog_tag">${blog.tag}</div>
+                    <div class="blog_copy">${blog.teaser}</div>
+                    <a class="blog_cta blog_cta_link" href="${blog.link}" target="_blank">LEARN MORE</a>
+                </article>
+                <article id="blog_[i]" class="blogs">
+                    <div class="blog_header"><strong style="color: white;">${blog.title}</strong></div>
+                    <div class="blog_tag">${blog.tag}</div>
+                    <div class="blog_copy">${blog.teaser}</div>
+                    <a class="blog_cta blog_cta_link" href="${blog.link}" target="_blank">LEARN MORE</a>
+                </article>
+                <article id="blog_[i]" class="blogs">
+                    <div class="blog_header"><strong style="color: white;">${blog.title}</strong></div>
+                    <div class="blog_tag">${blog.tag}</div>
+                    <div class="blog_copy">${blog.teaser}</div>
+                    <a class="blog_cta blog_cta_link" href="${blog.link}" target="_blank">LEARN MORE</a>
+                </article>
+            </section>
+        </div>
+        <div class="spacer">&nbsp;</div>
+    </main>
+    <!--BLOGS SECTION END-->
+    <!--PROJECTS SECTION START-->
+    <!-- <div id="project_content">
+        <div class="projects_section_header">PROJECT PORTFOLIO:</div>
+        <section id="projects_section">
+
+        </section>    
+    </div> -->
+    <!--PROJECTS SECTION END-->
+    <!--FOOTER SECTION START-->
+
+    <!--FOOTER SECTION END-->
+
+</body>
+
+</html>
