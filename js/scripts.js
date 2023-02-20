@@ -42,7 +42,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 </article>
                   `;
             }
-            document.getElementById('articles_section').innerHTML = html;
+            document.getElementById('blogs_section').innerHTML = html;
         }
         );
 
