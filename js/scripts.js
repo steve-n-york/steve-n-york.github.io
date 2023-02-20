@@ -4,13 +4,17 @@ document.addEventListener('DOMContentLoaded', () => {
     const subNavTab = document.querySelector('#sub-nav-tab');
     const subNavBar = document.querySelector('#sub_nav_bar');
     const subNavBlocks = document.querySelectorAll('#sub_nav_blocks')
+    const mainNavBarRight = document.querySelector('#main-navbar-right')
+    const profileMenContainer = document.querySelector('#profile-menu-container')
 
     // SUB-NAV DISPLAY ON LOGO HOVER
     logo.addEventListener('mouseover', (e) => {
         subNavBar.style.display = 'block';
+        profileMenContainer.style.display = 'none';
     });
     subNavTab.addEventListener('mouseover', (e) => {
         subNavBar.style.display = 'block';
+        profileMenContainer.style.display = 'none';
     });
     subNavBar.addEventListener('mouseover', (e) => {
         subNavBar.style.display = 'block';
@@ -22,6 +26,13 @@ document.addEventListener('DOMContentLoaded', () => {
         block.addEventListener('mouseover', (e) => {
             subNavBar.style.display = 'block';
         });
+    });
+    mainNavBarRight.addEventListener('mouseover', (e) => {
+        profileMenContainer.style.display = 'block';
+        subNavBar.style.display = 'none';
+    });
+    profileMenContainer.addEventListener('mouseleave', (e) => {
+        profileMenContainer.style.display = 'none';
     });
 
 
