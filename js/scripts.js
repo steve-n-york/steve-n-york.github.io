@@ -7,7 +7,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const mainNavBarRight = document.querySelector('#main-navbar-right')
     const profileMenContainer = document.querySelector('#profile-menu-container')
 
-    // SUB-NAV DISPLAY ON LOGO HOVER
+    // NAVIGATION FUNCTIONALITY
     logo.addEventListener('mouseover', (e) => {
         subNavBar.style.display = 'block';
         profileMenContainer.style.display = 'none';
@@ -34,6 +34,20 @@ document.addEventListener('DOMContentLoaded', () => {
     profileMenContainer.addEventListener('mouseleave', (e) => {
         profileMenContainer.style.display = 'none';
     });
+
+
+    // MOBILE NAVIGATION FUNCTIONALITY
+    const hambMenuBtn = document.querySelector('#hamb-menu-btn')
+    const mobileNavMenu = document.querySelector('#mobile-nav-menu')
+    const mobileNavTable = document.querySelector('#mobile-nav-table')
+
+    hambMenuBtn.addEventListener('click', (e) => {
+        mobileNavMenu.style.display = 'block';
+    });
+    mobileNavTable.addEventListener('click', (e) => {
+        mobileNavMenu.style.display = 'none';
+    });
+
 
 
 
