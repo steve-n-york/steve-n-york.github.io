@@ -74,7 +74,6 @@
 
 .blog_copy {
     height: 130px;
-    max-height: 130px;
     padding: 30px 20px 0;
     font-size: 12px;
     line-height: 16px;
@@ -164,8 +163,9 @@
     
     .blog_copy{
         width: auto;
-        font-size: 16px;
-        line-height: 20px;
+        height: 200px;
+        font-size: 17px;
+        line-height: 24px;
     }
 
     .blog_tag {
