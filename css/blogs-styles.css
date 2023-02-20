@@ -158,16 +158,20 @@
     .blog_header {
         width: auto;
         border-radius: 0px;
+        font-size: 22px;
+        line-height: 26px;
     }
     
     .blog_copy{
         width: auto;
+        font-size: 16px;
+        line-height: 20px;
     }
 
     .blog_tag {
         border-top-left-radius: 0;
         border-bottom-left-radius: 0;
-    
+        font-size: 18px;
     }
 
     .blog_cta {
@@ -175,5 +179,7 @@
         left: 0;
         border-top-left-radius: 0;
         border-bottom-left-radius: 0;
+        font-size: 16px;
+        padding: 10px 30px;
     }
 }
