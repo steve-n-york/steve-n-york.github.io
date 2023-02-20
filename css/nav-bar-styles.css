@@ -1,0 +1,84 @@
+/* NAV BAR */
+#main-navbar {
+    height: 60px;
+    display: flex;
+    background-color: #fff;
+    border-bottom: 4px solid #e98300;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    z-index: 10;
+  }
+  
+  #main-navbar-left {
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    color: #006dcc;
+  }
+  
+  #logo {
+    height: 40px;
+    margin-right: 20px;
+  }
+  #logo:hover {
+    cursor: pointer;
+  }
+  
+  #main-navbar-left a {
+    font-size: 14px;
+    font-weight: 500;
+    color: #006dcc;
+    text-decoration: none;
+    margin-left: 25px;
+  }
+  
+  #main-navbar-right {
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+    color: #333;
+  }
+  
+  #profile-pic {
+    height: 40px;
+    margin-right: 10px;
+    border: 1px solid #006dcc;
+    border-radius: 50%;
+  }
+  
+#hamb-menu-btn {
+    position: flex;
+    display: none;
+    border: none;
+  background-color: transparent;
+  cursor: pointer;
+  padding: 10px;
+  margin-right: 20px;
+}
+.hamb-menu {
+    width: 40px;
+    height: 6px;
+    background-color: #006dcc;
+    margin: 5px 0;
+}
+
+
+
+
+
+/* MOBILE STYLES */
+
+@media (max-width: 787px) {
+    #main-navbar-left a {
+        display: none;
+    }
+    #main-navbar-right {
+      display: none;
+    }
+    #hamb-menu-btn {
+      display: block;
+      margin-right: -10px;
+    }
+  }
+  

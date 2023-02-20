@@ -1,0 +1,21 @@
+html {
+    width: 100vw;
+    min-width: 380px;
+    overflow: hidden;
+    background-color: #fff;
+}
+body{
+    min-width: 380px;
+    margin: 0 auto;
+    font-family: roboto;
+    font-size: 14px;
+}
+
+@media (max-width: 787px) {
+    html {
+        width: 100vw;
+        min-width: 380px;
+        overflow: scroll;
+        background-color: #fff;
+    }
+}
