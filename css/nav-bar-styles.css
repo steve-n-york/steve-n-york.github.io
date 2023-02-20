@@ -26,12 +26,13 @@
     cursor: pointer;
 }
 
-#main-navbar-left a {
+.main-navbar-links {
     font-size: 14px;
     font-weight: 500;
     color: #006dcc;
     text-decoration: none;
-    margin-left: 25px;
+    padding-left: 30px;
+    padding-right: 20px;
 }
 
 #main-navbar-right {
