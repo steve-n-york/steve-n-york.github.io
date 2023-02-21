@@ -6,6 +6,10 @@ document.addEventListener('DOMContentLoaded', () => {
     const subNavBlocks = document.querySelectorAll('#sub_nav_blocks')
     const mainNavBarRight = document.querySelector('#main-navbar-right')
     const profileMenContainer = document.querySelector('#profile-menu-container')
+    const hambMenuBtn = document.querySelector('#hamb-menu-btn')
+    const mobileNavMenu = document.querySelector('#mobile-nav-menu')
+    const mobileNavTable = document.querySelector('#mobile-nav-table')
+    const blogContent = document.querySelector('#blog_content')
 
     // NAVIGATION FUNCTIONALITY
     logo.addEventListener('mouseover', (e) => {
@@ -37,15 +41,20 @@ document.addEventListener('DOMContentLoaded', () => {
 
 
     // MOBILE NAVIGATION FUNCTIONALITY
-    const hambMenuBtn = document.querySelector('#hamb-menu-btn')
-    const mobileNavMenu = document.querySelector('#mobile-nav-menu')
-    const mobileNavTable = document.querySelector('#mobile-nav-table')
 
     hambMenuBtn.addEventListener('click', (e) => {
-        mobileNavMenu.style.display = 'block';
+        if (mobileNavMenu.style.display === 'block') {
+            mobileNavMenu.style.display = 'none';
+            // blogContent.style.display = 'block';
+        }
+        else {
+            mobileNavMenu.style.display = 'block';
+            // blogContent.style.display = 'none';
+        }
     });
     mobileNavTable.addEventListener('click', (e) => {
         mobileNavMenu.style.display = 'none';
+        // blogContent.style.display = 'block';
     });
 
 

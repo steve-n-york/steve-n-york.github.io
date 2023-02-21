@@ -96,6 +96,21 @@
     #sub-nav-tab {
       display: none;
     }
+    #mobile-sub-nav-tab {
+        position: relative;
+        display: block;
+        width: fit-content;
+        height: fit-content;
+        border-bottom-left-radius: 5px;
+        border-bottom-right-radius: 5px;
+        background: linear-gradient(#e98300, #e98300, #e98300, #f0b31d);
+        font-size: 18px;
+        font-weight: bold;
+        text-align: center;
+        color: white;
+        padding: 5px 10px 5px;
+            z-index: 8;
+    }
   }
   
 
@@ -103,87 +118,3 @@
 
 
 
-/* ANIMATIONS */
-@keyframes slideDown {
-    0% {
-        opacity: 0;
-        transform: translateY(-60px);
-        z-index: 1;
-    }
-
-    100% {
-        opacity: 1;
-        transform: translateY(0);
-        z-index: 1;
-    }
-}
-
-@keyframes growFromTop {
-    0% {
-        opacity: 0;
-    }
-
-    100% {
-        opacity: 100;
-    }
-}
-
-@keyframes growFromMiddle {
-    0% {
-        transform: scaleY(0)
-    }
-
-    80% {
-        transform: scaleY(1.1)
-    }
-
-    100% {
-        transform: scaleY(1)
-    }
-}
-
-@keyframes rotateMenu {
-    0% {
-        transform: rotateX(-90deg)
-    }
-
-    70% {
-        transform: rotateX(20deg)
-    }
-
-    100% {
-        transform: rotateX(0deg)
-    }
-}
-
-@keyframes rotateXin {
-    0% {
-        opacity: 0;
-        transform: rotateX(-90deg);
-    }
-
-    50% {
-        transform: rotateX(-20deg);
-    }
-
-    100% {
-        opacity: 1;
-        transform: rotateX(0deg);
-    }
-}
-
-@keyframes rotateXout {
-    0% {
-        opacity: 1;
-        transform: rotateX(0deg);
-    }
-
-    50% {
-        transform: rotateX(-20deg);
-    }
-
-    100% {
-        opacity: 0;
-        transform: rotateX(-90deg);
-    }
-}

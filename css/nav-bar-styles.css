@@ -117,6 +117,17 @@
 /* MOBILE STYLES */
 
 @media (max-width: 787px) {
+    #main-navbar {
+        height: fit-content;
+        border-bottom: none;
+    }
+
+    #logo {
+        height: 55px;
+        margin-right: none;
+        padding: 10px 0;
+    }    
+
     #main-navbar-left a {
         display: none;
     }
@@ -128,5 +139,7 @@
     #hamb-menu-btn {
         display: block;
         margin-right: -10px;
+        border: 2px solid #e98300;
+        border-radius: 10px;
     }
 }
