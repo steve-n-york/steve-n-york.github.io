@@ -8,7 +8,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const profileMenContainer = document.querySelector('#profile-menu-container')
     const hambMenuBtn = document.querySelector('#hamb-menu-btn')
     const mobileNavMenu = document.querySelector('#mobile-nav-menu')
-    const mobileNavTable = document.querySelector('#mobile-nav-table')
+    const mobileNavBlocks = document.querySelectorAll('.mobile-nav-blocks')
     const blogContent = document.querySelector('#blog_content')
 
     // NAVIGATION FUNCTIONALITY
@@ -52,9 +52,11 @@ document.addEventListener('DOMContentLoaded', () => {
             // blogContent.style.display = 'none';
         }
     });
-    mobileNavTable.addEventListener('click', (e) => {
-        mobileNavMenu.style.display = 'none';
-        // blogContent.style.display = 'block';
+    mobileNavBlocks.forEach(block => {
+            block.addEventListener('click', (e) => {
+                mobileNavMenu.style.display = 'none';
+                // blogContent.style.display = 'block';
+        })
     });
 
 
