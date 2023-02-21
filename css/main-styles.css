@@ -72,6 +72,13 @@ body{
         padding: 30px 0;
     }
 
+    .social-icon {
+        width: 60px;
+        border: 2px solid #fff;
+        border-radius: 15px;
+        margin-bottom: -20px;
+    }
+
 
 
     /* MOBILE MAIN SECTION */
