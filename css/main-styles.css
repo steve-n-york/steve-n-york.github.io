@@ -32,6 +32,7 @@ body{
     #mobile-nav-menu {
         display: none;
         position: absolute;
+        top: 80px;
         width: 100vw;
         height: fit-content;
         background-color: #006dcc;
@@ -79,6 +80,7 @@ body{
         width: 100%;
         display: block;
         position: absolute;
+        top: 80px;
         background-color: #ffffff;
         z-index: 1;
     }

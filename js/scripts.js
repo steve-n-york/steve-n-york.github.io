@@ -9,6 +9,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const hambMenuBtn = document.querySelector('#hamb-menu-btn')
     const mobileNavMenu = document.querySelector('#mobile-nav-menu')
     const mobileNavBlocks = document.querySelectorAll('.mobile-nav-blocks')
+    const mobileMainSection = document.querySelector('#mobile-main-section')
     const blogContent = document.querySelector('#blog_content')
 
     // NAVIGATION FUNCTIONALITY
@@ -45,16 +46,19 @@ document.addEventListener('DOMContentLoaded', () => {
     hambMenuBtn.addEventListener('click', (e) => {
         if (mobileNavMenu.style.display === 'block') {
             mobileNavMenu.style.display = 'none';
+            mobileMainSection.style.display = 'block';
             // blogContent.style.display = 'block';
         }
         else {
             mobileNavMenu.style.display = 'block';
+            mobileMainSection.style.display = 'none';
             // blogContent.style.display = 'none';
         }
     });
     mobileNavBlocks.forEach(block => {
             block.addEventListener('click', (e) => {
                 mobileNavMenu.style.display = 'none';
+                mobileMainSection.style.display = 'block';
                 // blogContent.style.display = 'block';
         })
     });
