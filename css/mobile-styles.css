@@ -19,7 +19,7 @@
         height: fit-content;
         align-items: center;
         padding: 0 0 10px;
-        animation: fadeIn .2s;
+        animation: slideDown .3s;
         z-index: 8;
     }
     #mobile-nav-table {
