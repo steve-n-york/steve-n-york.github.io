@@ -142,7 +142,11 @@
     #hamb-menu-btn {
         display: block;
         margin-right: 30px;
+        background: radial-gradient(circle,#f0b31d 30%, #e98300 100%);
         border: 2px solid #e98300;
         border-radius: 10px;
+    }
+    .hamb-menu {
+       background-color: #fff;
     }
 }

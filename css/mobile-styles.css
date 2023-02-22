@@ -28,9 +28,13 @@
         top: 65px;
     }
     #mobile-profile-pic {
+        background-image: url("../images/home/snyork_profile_pic.jpg");
+        background-size: 100px;
+        width: 100px;
         height: 100px;
-        border: 1px solid #006dcc;
         border-radius: 50%;
+        box-shadow: inset 0 0 20px #666;
+        border: 1px solid #fff;
         margin-bottom: -10px;  
     }
     .mobile-nav-blocks {
@@ -38,15 +42,18 @@
         height: fit-content;
         align-items: center;
         text-align: center;
-        background: linear-gradient(0deg, rgba(68,111,149,100) 0%, #0070d2 15%, #63a0d5 40%, #63a0d5 60%, #0070d2 85%, rgba(68,111,149,100) 100%);
+        background: linear-gradient(0deg, rgba(122,122,122,1) 0%, rgba(212,212,212,1) 10%, rgb(255, 255, 255) 40%, rgb(255, 255, 255) 60%, rgba(212,212,212,1) 90%, rgba(122,122,122,1) 100%);
+        /* background: linear-gradient(0deg, rgba(68,111,149,100) 0%, #0070d2 15%, #63a0d5 30%, #63a0d5 70%, #0070d2 85%, rgba(68,111,149,100) 100%); */
         font-size: 28px;
         font-weight: 600;
-        color: #fff;
+        color: #333;
         border-bottom: 1px solid #ffffff;
         padding: 30px 0;
     }
     #mobile-nav-profile-section {
-        background: linear-gradient(0deg, rgba(172,125,64,1) 0%, #e98300 8%, #f0b31d 30%, #f0b31d 70%, #e98300 92%, rgba(172,125,64,1) 100%);
+        /* background: linear-gradient(0deg, rgba(122,122,122,1) 0%, rgba(212,212,212,1) 10%, rgba(230,232,242,1) 40%, rgba(230,232,242,1) 60%, rgba(212,212,212,1) 90%, rgba(122,122,122,1) 100%); */
+        background: linear-gradient(0deg, rgba(68,111,149,100) 0%, #0070d2 5%, #4c94d4 15%, #4c94d4 85%, #0070d2 95%, rgba(68,111,149,100) 100%);
+        /* background: linear-gradient(0deg, rgba(172,125,64,1) 0%, #e98300 8%, #f0b31d 30%, #f0b31d 70%, #e98300 92%, rgba(172,125,64,1) 100%); */
         padding: 20px 0 10px;
         border-bottom: 4px solid #ffffff;
     }
@@ -54,11 +61,12 @@
         width: 100%;
         height: fit-content;
         padding-bottom: 20px;
-        background: linear-gradient(0deg, rgba(122,122,122,1) 0%, rgba(212,212,212,1) 10%, rgba(230,232,242,1) 40%, rgba(230,232,242,1) 60%, rgba(212,212,212,1) 90%, rgba(122,122,122,1) 100%);
+        background: linear-gradient(0deg, rgb(60, 60, 60) 0%, rgb(97, 97, 97) 10%, rgba(97, 97, 97) 90%, rgb(60, 60, 60) 100%);
     }
     .social-icon {
         margin-top: -10px;
         width: 60px;
+        background: linear-gradient(0deg, rgb(73, 73, 73) 0%, rgb(255, 255, 255) 40%);
         border: 2px solid #fff;
         border-radius: 15px;
         box-shadow: 0px 0px 10px #333;
