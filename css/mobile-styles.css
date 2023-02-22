@@ -38,7 +38,7 @@
         height: fit-content;
         align-items: center;
         text-align: center;
-        background: linear-gradient(0deg, rgba(68,111,149,100) 0%, rgba(114,164,208,1) 15%, rgba(97,181,255,1) 40%, rgba(97,181,255,1) 60%, rgba(114,164,208,1) 85%, rgba(68,111,149,100) 100%);
+        background: linear-gradient(0deg, rgba(68,111,149,100) 0%, #0070d2 15%, #63a0d5 40%, #63a0d5 60%, #0070d2 85%, rgba(68,111,149,100) 100%);
         font-size: 28px;
         font-weight: 600;
         color: #fff;
