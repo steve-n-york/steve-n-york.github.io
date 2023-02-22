@@ -93,7 +93,7 @@
         vertical-align: middle;
         color: white;
         padding: 15px 10px;
-        background: linear-gradient(#e98300, #e98300, #e98300, #f0b31d);
+        background: linear-gradient(#c46f00, #d79f11, #d79f11, #c46f00);
         /* background-color: #e98300; */
     }
     
@@ -105,7 +105,7 @@
         vertical-align: middle;
         color: #006dcc;
         padding: 25px 10px;
-        background-color: #fff;
+        background: linear-gradient(0deg, rgba(122,122,122,1) 0%, rgba(212,212,212,1) 10%, rgb(255, 255, 255) 40%, rgb(255, 255, 255) 60%, rgba(212,212,212,1) 90%, rgba(122,122,122,1) 100%);
         border-bottom: 2px solid #000;
     }
 
