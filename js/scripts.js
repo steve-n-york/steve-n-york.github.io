@@ -66,6 +66,11 @@ document.addEventListener('DOMContentLoaded', () => {
                 mobileNavMenu.style.display = 'none';
                 mobileMainSection.style.display = 'block';
                 // blogContent.style.display = 'block';
+
+                if(e.target.innerHTML == 'BLOGS'){
+                    console.log('blogs')
+                    blogContent.style.display = 'block';
+                }
         })
     });
 
