@@ -125,7 +125,7 @@
 @media (max-width: 787px) {
     #blog_content {
         width: 100vw;
-        top: 75px;
+        /* top: 70px; */
         padding: 0 0 50px;
         /* background-color: rgb(48, 52, 71); */
         overflow-y: scroll;
@@ -137,13 +137,17 @@
         width: 100vw;
         font-size: 25px;
         text-align: center;
-        margin-bottom: 25px;
-        color:rgb(48, 52, 71);
+        margin-top: 80px;
+        padding: 15px 0;
+        color:rgb(255, 255, 255);
+        background: linear-gradient(0deg, #0070d2 0%, #4c94d4 10%, #4c94d4 90%, #0070d2 100%);
+        border-bottom: 4px solid  rgb(48, 52, 71);
     }
 
     #blogs_section {
         width: 100vw;
         margin: 0;
+        top: 5px;
         overflow-y: scroll;
     }
 
@@ -155,8 +159,9 @@
         margin: 0 0 20px;
         box-shadow: none;
         border-radius: 0;
-        background-color: white;
+        background: linear-gradient(0deg, #a5a5a5 0%, #ffffff 5%);
         box-shadow:  0px  0px 10px #333;
+        border-bottom: 1px solid #333;
     }
 
     .blog_header {
@@ -164,28 +169,44 @@
         border-radius: 0px;
         font-size: 22px;
         line-height: 26px;
+        padding: 16px;
+        background: linear-gradient(0deg, #4c94d4 80%, #005fb2 100%);
+        border-bottom: 3px solid #005fb2;
     }
     
-    .blog_copy{
-        width: auto;
-        height: fit-content;
-        padding: 40px 20px 20px;
-        font-size: 17px;
-        line-height: 24px;
-    }
-
     .blog_tag {
         border-top-left-radius: 0;
         border-bottom-left-radius: 0;
+        border: 1px solid #6d83a8;
         font-size: 18px;
-    }
+        line-height: 18px;
+        padding: 12px 20px 6px 20px;
+        margin-top: -20px;
+        background: linear-gradient(0deg, #263348 0%, #54698d 20%, #54698d 80%, #263348 100%);
+        box-shadow: 0px 0px 5px #666;
+   }
+
+    .blog_copy{
+        width: auto;
+        height: fit-content;
+        padding: 50px 20px 20px 15px;
+        font-size: 17px;
+        line-height: 24px;
+        margin-top: -20px;
+
+    }    
 
     .blog_cta {
         float: left;
         left: 0;
+        color: #000000;
+        border: 1px solid #d4d4d4;
         border-top-left-radius: 0;
         border-bottom-left-radius: 0;
-        font-size: 16px;
-        padding: 10px 30px;
+        font-size: 20px;
+        padding: 10px 30px 8px 16px;
+        top: 20px;
+        background: linear-gradient(0deg, #4a4a4a 0%, #c1c1c1 20%, #c1c1c1 80%, #4a4a4a 100%);
+        box-shadow: 0px 0px 3px #333;
     }
 }
