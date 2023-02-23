@@ -125,7 +125,9 @@
 @media (max-width: 787px) {
     #blog_content {
         width: 100vw;
-        padding: 0;
+        top: 75px;
+        padding: 0 0 50px;
+        background-color: rgb(48, 52, 71);
         overflow-y: scroll;
         display: none;
     }
@@ -135,6 +137,7 @@
         font-size: 25px;
         text-align: center;
         margin-bottom: 25px;
+        color: #ffffff;
     }
 
     #blogs_section {
