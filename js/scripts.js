@@ -57,6 +57,10 @@ document.addEventListener('DOMContentLoaded', () => {
             mobileMainSection.style.display = 'none';
             // blogContent.style.display = 'none';
         }
+        if(blogContent.style.display == 'block'){
+            blogContent.style.display = 'none';
+        }
+
         window.scroll(0,0);
         mobileMainBlocksChild.forEach(child => {
             child.style.display = 'none';
@@ -69,10 +73,9 @@ document.addEventListener('DOMContentLoaded', () => {
                 // blogContent.style.display = 'block';
 
                 if(e.target == mobileNavBlogsBtn){
-                    console.log('blogs')
                     blogContent.style.display = 'block';
                 }
-        })
+    })
     });
 
 

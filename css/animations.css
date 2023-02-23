@@ -6,7 +6,7 @@
         z-index: 1;
     }
 
-    25% {
+    50% {
         opacity: 1;
         transform: translateY(0);
         z-index: 1;

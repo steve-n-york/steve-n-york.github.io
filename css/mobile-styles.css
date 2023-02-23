@@ -101,6 +101,7 @@
     }
     
     .mobile-main-blocks {
+        position: relative;
         width: 100%;
         font-size: 24px;
         font-weight: bold;
@@ -110,6 +111,7 @@
         padding: 25px 10px;
         background: linear-gradient(0deg, rgba(122,122,122,1) 0%, rgba(212,212,212,1) 10%, rgb(255, 255, 255) 40%, rgb(255, 255, 255) 60%, rgba(212,212,212,1) 90%, rgba(122,122,122,1) 100%);
         border-bottom: 2px solid #000;
+        z-index: 7;
     }
 
     #mobile-main-section td{
@@ -117,6 +119,7 @@
     }
 
     .mobile-main-blocks-child {
+        position: relative;
         font-size: 16px;
         line-height: 22px;
         text-align: center;
@@ -124,6 +127,7 @@
         padding: 30px 15px;
         animation: slideDown .3s;
         background: linear-gradient(0deg,  rgb(30, 32, 44) 0%,  rgb(58, 62, 84) 10%,  rgb(58, 62, 84) 90%,  rgb(30, 32, 44) 100%);
+        z-index: 1;
    }
 
 
