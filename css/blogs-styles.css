@@ -127,7 +127,7 @@
         width: 100vw;
         top: 75px;
         padding: 0 0 50px;
-        background-color: rgb(48, 52, 71);
+        /* background-color: rgb(48, 52, 71); */
         overflow-y: scroll;
         display: none;
     }
@@ -137,7 +137,7 @@
         font-size: 25px;
         text-align: center;
         margin-bottom: 25px;
-        color: #ffffff;
+        color:rgb(48, 52, 71);
     }
 
     #blogs_section {
