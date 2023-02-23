@@ -11,6 +11,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const mobileNavBlocks = document.querySelectorAll('.mobile-nav-blocks')
     const mobileMainSection = document.querySelector('#mobile-main-section')
     const blogContent = document.querySelector('#blog_content')
+    const mobileMainBlocks = document.querySelectorAll('.mobile-main-blocks')
 
     // NAVIGATION FUNCTIONALITY
     logo.addEventListener('mouseover', (e) => {
@@ -62,6 +63,16 @@ document.addEventListener('DOMContentLoaded', () => {
                 // blogContent.style.display = 'block';
         })
     });
+
+
+    // MOBILE MAIN PAGE BUTTON FUNCTIONALITY
+    mobileMainBlocks.forEach(block => {
+        block.addEventListener('click', (e) => {
+            const childBlock = block.firstChild
+            childBlock.style.display = 'block';
+        })
+    })
+    
 
 
 

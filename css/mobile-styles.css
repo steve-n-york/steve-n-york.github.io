@@ -48,7 +48,7 @@
         font-weight: 600;
         color: #333;
         border-bottom: 1px solid #ffffff;
-        padding: 30px 0;
+        padding: 25px 0;
     }
     #mobile-nav-profile-section {
         /* background: linear-gradient(0deg, rgba(122,122,122,1) 0%, rgba(212,212,212,1) 10%, rgba(230,232,242,1) 40%, rgba(230,232,242,1) 60%, rgba(212,212,212,1) 90%, rgba(122,122,122,1) 100%); */
@@ -93,7 +93,8 @@
         vertical-align: middle;
         color: white;
         padding: 15px 10px;
-        background: linear-gradient(#c46f00, #d79f11, #d79f11, #c46f00);
+        background: linear-gradient(0deg, rgba(68,111,149,100) 0%, #0070d2 5%, #4c94d4 15%, #4c94d4 85%, #0070d2 95%, rgba(68,111,149,100) 100%);
+        /* background: linear-gradient(#c46f00, #d79f11, #d79f11, #c46f00); */
         /* background-color: #e98300; */
     }
     
@@ -112,6 +113,17 @@
     #mobile-main-section td{
         width: 100vw;
     }
+
+    .mobile-main-blocks-child {
+        display: block;
+        font-size: 16px;
+        line-height: 22px;
+        text-align: center;
+        color: #fff;
+        padding: 30px 15px;
+        animation: slideDown .3s;
+        background: linear-gradient(0deg, rgb(53, 53, 53) 0%, rgb(94, 94, 94) 10%, rgb(94, 94, 94) 90%, rgb(53, 53, 53) 100%);
+   }
 
 
 
