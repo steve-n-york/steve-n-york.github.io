@@ -45,7 +45,8 @@
     height: 60px;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
-    background: linear-gradient(#0070d2, #0070d2, #0070d2, #63a0d5);
+    background: linear-gradient(0deg, #4c94d4 80%, #005fb2 100%);
+    border-bottom: 3px solid #005fb2;
     padding: 20px 20px 25px;
     font-size: 18px;
     color: white;
@@ -64,8 +65,9 @@
     border-top-left-radius: 3px;
     border-bottom-left-radius: 3px;
     box-shadow: 0 1px 2px 0 rgba(84, 105, 141, 0.75);
-    background-color: #54698d;
-    font-size: 14px;
+    background: linear-gradient(0deg, #4e6282 0%, #637ba9 20%, #637ba9 80%, #4e6282 100%);
+    box-shadow: 0px 0px 1px #333;
+font-size: 14px;
     line-height: 20px;
     font-weight: bold;
     color: white;
@@ -130,7 +132,7 @@
         /* background-color: rgb(48, 52, 71); */
         overflow-y: scroll;
         display: none;
-        animation: growFromMiddle .2s;
+        animation: slideDown .3s;
     }
 
     .blogs_section_header {
