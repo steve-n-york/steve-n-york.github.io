@@ -169,7 +169,7 @@
         border-radius: 0px;
         font-size: 22px;
         line-height: 26px;
-        padding: 16px;
+        padding: 16px 16px 26px 16px;
         background: linear-gradient(0deg, #4c94d4 80%, #005fb2 100%);
         border-bottom: 3px solid #005fb2;
     }
@@ -177,19 +177,19 @@
     .blog_tag {
         border-top-left-radius: 0;
         border-bottom-left-radius: 0;
-        border: 1px solid #6d83a8;
+        border: 1px solid #3d495f;
         font-size: 18px;
         line-height: 18px;
         padding: 12px 20px 6px 20px;
-        margin-top: -20px;
-        background: linear-gradient(0deg, #3d4e69 0%, #54698d 20%, #54698d 80%, #3d4e69 100%);
+        margin-top: -10px;
+        background: linear-gradient(0deg, #4e6282 0%, #637ba9 20%, #637ba9 80%, #4e6282 100%);
         box-shadow: 0px 0px 1px #333;
    }
 
     .blog_copy{
         width: auto;
         height: fit-content;
-        padding: 50px 20px 20px 15px;
+        padding: 60px 20px 20px 15px;
         font-size: 17px;
         line-height: 24px;
         margin-top: -20px;
@@ -205,8 +205,7 @@
         border-bottom-left-radius: 0;
         font-size: 20px;
         padding: 10px 30px 8px 16px;
-        top: 20px;
-        background: linear-gradient(0deg, rgba(122,122,122,1) 0%, rgba(212,212,212,1) 10%, rgb(255, 255, 255) 40%, rgb(255, 255, 255) 60%, rgba(212,212,212,1) 90%, rgba(122,122,122,1) 100%);
+        background: linear-gradient(0deg, rgb(154, 154, 154) 0%, rgba(212,212,212,1) 10%, rgb(255, 255, 255) 40%, rgb(255, 255, 255) 60%, rgba(212,212,212,1) 90%, rgba(154, 154, 154,1) 100%);
         box-shadow: 1px 0px 1px #333;
     }
 }
