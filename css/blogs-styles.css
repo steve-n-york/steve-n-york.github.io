@@ -130,7 +130,7 @@
         /* background-color: rgb(48, 52, 71); */
         overflow-y: scroll;
         display: none;
-        animation: slideDown .2s;
+        animation: growFromMiddle .2s;
     }
 
     .blogs_section_header {
