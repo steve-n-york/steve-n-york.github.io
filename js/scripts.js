@@ -9,6 +9,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const hambMenuBtn = document.querySelector('#hamb-menu-btn')
     const mobileNavMenu = document.querySelector('#mobile-nav-menu')
     const mobileNavBlocks = document.querySelectorAll('.mobile-nav-blocks')
+    const mobileNavBlogsBtn = document.getElementById('mobile-nav-blogs-btn')
     const mobileMainSection = document.querySelector('#mobile-main-section')
     const blogContent = document.querySelector('#blog_content')
     const mobileMainBlocks = document.querySelectorAll('.mobile-main-blocks')
@@ -67,7 +68,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 mobileMainSection.style.display = 'block';
                 // blogContent.style.display = 'block';
 
-                if(e.target.innerHTML == 'BLOGS'){
+                if(e.target == mobileNavBlogsBtn){
                     console.log('blogs')
                     blogContent.style.display = 'block';
                 }
