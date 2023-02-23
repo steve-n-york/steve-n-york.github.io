@@ -19,7 +19,7 @@
         height: fit-content;
         align-items: center;
         padding: 0 0 60px;
-        animation: slideDown .5s;
+        animation: slideDown .4s;
         background: linear-gradient(0deg, rgb(48, 52, 71) 50%, rgb(255, 255, 255) 100%);
         z-index: 8;
     }
@@ -109,7 +109,7 @@
         vertical-align: middle;
         color: #245f92;
         padding: 25px 10px;
-        background: linear-gradient(0deg, rgba(122,122,122,1) 0%, rgba(212,212,212,1) 10%, rgb(255, 255, 255) 40%, rgb(255, 255, 255) 60%, rgba(212,212,212,1) 90%, rgba(122,122,122,1) 100%);
+        background: linear-gradient(0deg, rgba(122,122,122,1) 0%, rgba(212,212,212,1) 10%, rgb(255, 255, 255) 30%, rgb(255, 255, 255) 70%, rgba(212,212,212,1) 90%, rgba(122,122,122,1) 100%);
         border-bottom: 2px solid #000;
         z-index: 7;
     }
@@ -120,8 +120,8 @@
 
     .mobile-main-blocks-child {
         position: relative;
-        font-size: 16px;
-        line-height: 22px;
+        font-size: 18px;
+        line-height: 26px;
         text-align: center;
         color: #fff;
         padding: 30px 15px;
