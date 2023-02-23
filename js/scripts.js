@@ -12,6 +12,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const mobileMainSection = document.querySelector('#mobile-main-section')
     const blogContent = document.querySelector('#blog_content')
     const mobileMainBlocks = document.querySelectorAll('.mobile-main-blocks')
+    const mobileMainBlocksChild = document.querySelectorAll('.mobile-main-blocks-child')
 
     // NAVIGATION FUNCTIONALITY
     logo.addEventListener('mouseover', (e) => {
@@ -56,6 +57,9 @@ document.addEventListener('DOMContentLoaded', () => {
             // blogContent.style.display = 'none';
         }
         window.scroll(0,0);
+        mobileMainBlocksChild.forEach(child => {
+            child.style.display = 'none';
+        })
     });
     mobileNavBlocks.forEach(block => {
             block.addEventListener('click', (e) => {
