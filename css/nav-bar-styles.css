@@ -122,7 +122,7 @@
         width: 100vw;
         height: fit-content;
         border-bottom: none;
-        box-shadow: 0px 1px 15px #999;
+        box-shadow: 0px 1px 20px #333;
     }
 
     #logo {
