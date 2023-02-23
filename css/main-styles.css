@@ -1,7 +1,7 @@
 html {
     width: 100vw;
     overflow: hidden;
-    background-color: #333;
+    background-color: #ffffff;
 }
 body{
     margin: 0 auto;
@@ -19,7 +19,8 @@ footer{
     bottom: 0;
     width: 100vw;
     height: auto;
-    background-color: rgb(71, 81, 94);
+    background: linear-gradient(0deg,  rgb(87, 93, 122) 0%,  rgb(48, 52, 71) 20%,  rgb(48, 52, 71) 80%,  rgb(87, 93, 122) 100%);
+    /* background: linear-gradient(0deg, rgb(123, 123, 123) 0%, rgb(53, 53, 53) 30%, rgb(53, 53, 53) 70%, rgb(123, 123, 123) 100%); */
     opacity: .97;
 }
 #footer_section{
@@ -41,9 +42,10 @@ footer{
 @media (max-width: 787px) {
     html {
         width: 100vw;
+        height: 100vh;
         min-width: 380px;
         overflow: scroll;
-        background-color: #fff;
+        background: linear-gradient(0deg, rgb(48, 52, 71) 50%, rgb(255, 255, 255) 100%);
     }
 }
 

@@ -61,7 +61,7 @@
         width: 100%;
         height: fit-content;
         padding-bottom: 20px;
-        background: linear-gradient(0deg, rgb(60, 60, 60) 0%, rgb(97, 97, 97) 10%, rgba(97, 97, 97) 90%, rgb(60, 60, 60) 100%);
+        /* background: linear-gradient(0deg, rgb(60, 60, 60) 0%, rgb(97, 97, 97) 10%, rgba(97, 97, 97) 90%, rgb(60, 60, 60) 100%); */
     }
     .social-icon {
         margin-top: -10px;
@@ -121,17 +121,22 @@
         color: #fff;
         padding: 30px 15px;
         animation: slideDown .3s;
-        background: linear-gradient(0deg, rgb(53, 53, 53) 0%, rgb(94, 94, 94) 10%, rgb(94, 94, 94) 90%, rgb(53, 53, 53) 100%);
+        background: linear-gradient(0deg,  rgb(87, 93, 122) 0%,  rgb(48, 52, 71) 10%,  rgb(48, 52, 71) 90%,  rgb(87, 93, 122) 100%);
    }
 
 
 
-    #footer_section {
+    footer {
         position: absolute;
         bottom: 0;
-        display: none;
         width: 100%;
         font-size: 13px;
+        text-align: center;
+    }
+    #footer_section {
+        width: 90%;
+        margin: -5px 0;
+        padding: none;
         text-align: center;
     }
 
