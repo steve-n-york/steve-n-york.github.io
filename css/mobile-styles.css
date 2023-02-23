@@ -81,7 +81,8 @@
         display: block;
         position: absolute;
         top: 80px;
-        background-color: #ffffff;
+        padding-bottom: 50px;
+        background-color: rgb(48, 52, 71);
         z-index: 1;
     }
 
@@ -127,11 +128,12 @@
 
 
     footer {
-        position: absolute;
+        position: fixed;
         bottom: 0;
         width: 100%;
         font-size: 13px;
         text-align: center;
+        z-index: 10;
     }
     #footer_section {
         width: 90%;
