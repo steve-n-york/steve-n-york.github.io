@@ -18,8 +18,9 @@
         width: 100vw;
         height: fit-content;
         align-items: center;
-        padding: 0 0 10px;
+        padding: 0 0 60px;
         animation: slideDown .5s;
+        background: linear-gradient(0deg, rgb(48, 52, 71) 50%, rgb(255, 255, 255) 100%);
         z-index: 8;
     }
     #mobile-nav-table {
@@ -60,7 +61,7 @@
     #mobile-nav-social-section{
         width: 100%;
         height: fit-content;
-        padding-bottom: 60px;
+        padding-bottom: 20px;
         /* background: linear-gradient(0deg, rgb(60, 60, 60) 0%, rgb(97, 97, 97) 10%, rgba(97, 97, 97) 90%, rgb(60, 60, 60) 100%); */
     }
     .social-icon {

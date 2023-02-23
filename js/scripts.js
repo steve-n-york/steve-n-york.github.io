@@ -55,6 +55,7 @@ document.addEventListener('DOMContentLoaded', () => {
             mobileMainSection.style.display = 'none';
             // blogContent.style.display = 'none';
         }
+        window.scroll(0,0);
     });
     mobileNavBlocks.forEach(block => {
             block.addEventListener('click', (e) => {
