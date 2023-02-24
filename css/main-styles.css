@@ -10,7 +10,7 @@ body {
     font-size: 14px;
 }
 
-a,
+.blog_cta, a,
 a:hover,
 a:visited,
 a:active {
