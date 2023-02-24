@@ -145,7 +145,7 @@
         font-size: 25px;
         text-align: center;
         margin-top: 80px;
-        padding: 15px 0;
+        padding: 25px 0;
         color: rgb(255, 255, 255);
         background: linear-gradient(0deg, #0070d2 0%, #4c94d4 10%, #4c94d4 90%, #0070d2 100%);
         border-bottom: 4px solid rgb(48, 52, 71);
@@ -177,7 +177,7 @@
         border-radius: 0px;
         font-size: 22px;
         line-height: 26px;
-        padding: 16px 16px 26px 16px;
+        padding: 20px 16px 26px 16px;
         background: linear-gradient(0deg, #4c94d4 80%, #005fb2 100%);
         border-bottom: 3px solid #005fb2;
     }
@@ -198,7 +198,7 @@
         width: auto;
         height: fit-content;
         padding: 60px 20px 20px 15px;
-        font-size: 17px;
+        font-size: 18px;
         line-height: 24px;
         margin-top: -20px;
 
@@ -207,6 +207,7 @@
     .blog_cta {
         float: left;
         left: 0;
+        margin-top: -15px
         color: #245f92;
         border: 1px solid #3d4e69;
         border-top-left-radius: 0;
