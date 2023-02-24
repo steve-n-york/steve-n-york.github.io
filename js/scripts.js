@@ -16,6 +16,9 @@ document.addEventListener('DOMContentLoaded', () => {
     const mobileMainBlocks = document.querySelectorAll('.mobile-main-blocks')
     const mobileMainBlocksChild = document.querySelectorAll('.mobile-main-blocks-child')
 
+
+
+
     // NAVIGATION FUNCTIONALITY
     logo.addEventListener('mouseover', (e) => {
         subNavBar.style.display = 'block';
@@ -81,39 +84,25 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 
 
+
+
     // MOBILE MAIN PAGE BUTTON FUNCTIONALITY
     mobileMainBlocks.forEach(block => {
         block.addEventListener('click', (e) => {
-            console.log('clicked')
             e.stopPropagation();
-
             const nextElement = block.parentElement.nextElementSibling.childNodes[1].childNodes[1]
             if (nextElement.style.display === "none") {
                 nextElement.style.display = "block";
-                console.log(nextElement)
               } else {
                 nextElement.style.display = "none";
-                console.log(nextElement)
               }
         })
     })
     
 
 
-    // function toggleMobileBlock() {
-    //     // Get the next element after the clicked element
-    //     const nextElement = this.parentElement.nextElementSibling;
-      
-    //     // Toggle the display style of the next element
-    //     if (nextElement.style.display === "block") {
-    //       nextElement.style.display = "none";
-    //     } else {
-    //       nextElement.style.display = "block";
-    //     }
-    //   }
 
-
-    // BLOGS SCRIPT
+    // BLOGS API SCRIPT
     fetch('./blogs/blogs.json')
         .then(response => response.json())
         .then(data => {
