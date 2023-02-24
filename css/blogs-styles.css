@@ -197,7 +197,7 @@
     .blog_copy {
         width: auto;
         height: fit-content;
-        padding: 60px 20px 20px 15px;
+        padding: 60px 20px 30px 15px;
         font-size: 18px;
         line-height: 24px;
         margin-top: -20px;
@@ -207,12 +207,12 @@
     .blog_cta {
         float: left;
         left: 0;
-        margin-top: -15px
+        margin-top: -15px;
         color: #245f92;
         border: 1px solid #3d4e69;
         border-top-left-radius: 0;
         border-bottom-left-radius: 0;
-        font-size: 20px;
+        font-size: 18px;
         padding: 10px 30px 8px 16px;
         background: linear-gradient(0deg, rgb(154, 154, 154) 0%, rgba(212, 212, 212, 1) 10%, rgb(255, 255, 255) 40%, rgb(255, 255, 255) 60%, rgba(212, 212, 212, 1) 90%, rgba(154, 154, 154, 1) 100%);
         box-shadow: 1px 0px 1px #333;

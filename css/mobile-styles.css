@@ -52,7 +52,7 @@
         font-weight: 600;
         color: #245f92;
         border-bottom: 1px solid rgb(48, 52, 71);
-        padding: 15px 0;
+        padding: 20px 0;
     }
 
     #mobile-nav-profile-section {
@@ -115,7 +115,7 @@
         text-align: center;
         vertical-align: middle;
         color: #245f92;
-        padding: 15px 10px;
+        padding: 20px 10px;
         background: linear-gradient(0deg, rgb(154, 154, 154) 0%, rgba(212, 212, 212, 1) 10%, rgb(255, 255, 255) 40%, rgb(255, 255, 255) 60%, rgba(212, 212, 212, 1) 90%, rgba(154, 154, 154, 1) 100%);
         border-bottom: 2px solid #000;
         z-index: 7;
