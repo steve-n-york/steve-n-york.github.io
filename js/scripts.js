@@ -11,6 +11,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const mobileNavBlocks = document.querySelectorAll('.mobile-nav-blocks')
     const mobileNavBlogsBtn = document.getElementById('mobile-nav-blogs-btn')
     const mobileMainSection = document.querySelector('#mobile-main-section')
+    const fadeFromDark = document.querySelector('#fadeFromDark')
     const blogContent = document.querySelector('#blog_content')
     const mobileMainBlocks = document.querySelectorAll('.mobile-main-blocks')
     const mobileMainBlocksChild = document.querySelectorAll('.mobile-main-blocks-child')
@@ -73,6 +74,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 // blogContent.style.display = 'block';
 
                 if(e.target == mobileNavBlogsBtn){
+                    mobileMainSection.style.display = 'none';
                     blogContent.style.display = 'block';
                 }
     })

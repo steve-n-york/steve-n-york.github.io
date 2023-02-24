@@ -6,7 +6,7 @@
         z-index: 1;
     }
 
-    50% {
+    20% {
         opacity: 1;
         transform: translateY(0);
         z-index: 1;
@@ -23,6 +23,15 @@
     }
 }
 
+@keyframes fadeFromDark {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 100;
+    }
+}
+
 @keyframes growFromMiddle {
     0% {
         transform: scaleY(0)
@@ -34,51 +43,5 @@
 
     100% {
         transform: scaleY(1)
-    }
-}
-
-@keyframes rotateMenu {
-    0% {
-        transform: rotateX(-90deg)
-    }
-
-    70% {
-        transform: rotateX(20deg)
-    }
-
-    100% {
-        transform: rotateX(0deg)
-    }
-}
-
-@keyframes rotateXin {
-    0% {
-        opacity: 0;
-        transform: rotateX(-90deg);
-    }
-
-    50% {
-        transform: rotateX(-20deg);
-    }
-
-    100% {
-        opacity: 1;
-        transform: rotateX(0deg);
-    }
-}
-
-@keyframes rotateXout {
-    0% {
-        opacity: 1;
-        transform: rotateX(0deg);
-    }
-
-    50% {
-        transform: rotateX(-20deg);
-    }
-
-    100% {
-        opacity: 0;
-        transform: rotateX(-90deg);
     }
 }

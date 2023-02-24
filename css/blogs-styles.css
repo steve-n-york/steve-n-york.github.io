@@ -125,6 +125,10 @@ font-size: 14px;
 /* MOBILE STYLES */
 
 @media (max-width: 787px) {
+    .fadeFromDark {
+        width: 100vw;
+        height: 100vh;
+    }
     #blog_content {
         width: 100vw;
         /* top: 70px; */
@@ -132,7 +136,7 @@ font-size: 14px;
         /* background-color: rgb(48, 52, 71); */
         overflow-y: scroll;
         display: none;
-        animation: slideDown .3s;
+        animation: fadeFromDark .5s;
     }
 
     .blogs_section_header {

@@ -127,7 +127,7 @@
 
     #logo {
         height: 55px;
-        margin-right: none;
+        margin-left: -10px;
         padding: 10px 0;
     }    
 
