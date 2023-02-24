@@ -58,7 +58,10 @@ document.addEventListener('DOMContentLoaded', () => {
         }
         else {
             mobileNavMenu.style.display = 'block';
-            mobileMainSection.style.display = 'none';
+                mobileMainSection.style.display = 'none';
+            // setTimeout(function(){
+                // mobileMainSection.animate({ opacity: [1, 0] }, { duration: 100, iterations: 1, easing: "ease-out" })
+            // }, 1000);
             // blogContent.style.display = 'none';
         }
         if(blogContent.style.display == 'block'){
