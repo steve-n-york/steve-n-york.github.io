@@ -91,11 +91,13 @@
 
 @media (max-width: 787px) {
     #sub_nav_bar {
-      display: none !important;
+        display: none !important;
     }
+
     #sub-nav-tab {
-      display: none;
+        display: none;
     }
+
     #mobile-sub-nav-tab {
         position: relative;
         display: block;
@@ -109,12 +111,6 @@
         text-align: center;
         color: white;
         padding: 5px 10px 5px;
-            z-index: 8;
+        z-index: 8;
     }
-  }
-  
-
-
-
-
-
+}

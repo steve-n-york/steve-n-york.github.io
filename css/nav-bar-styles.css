@@ -129,7 +129,7 @@
         height: 55px;
         margin-left: -10px;
         padding: 10px 0;
-    }    
+    }
 
     #main-navbar-left a {
         display: none;
@@ -142,12 +142,13 @@
     #hamb-menu-btn {
         display: block;
         margin-right: 30px;
-        background: radial-gradient(circle,#4c94d4 60%, #0064bb 100%);
+        background: radial-gradient(circle, #4c94d4 60%, #0064bb 100%);
         border: 2px solid #014785;
         border-radius: 10px;
         touch-action: manipulation;
     }
+
     .hamb-menu {
-       background-color: #fff;
+        background-color: #fff;
     }
 }

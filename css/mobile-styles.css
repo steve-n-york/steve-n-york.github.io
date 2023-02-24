@@ -23,11 +23,13 @@
         background-color: rgb(48, 52, 71);
         z-index: 8;
     }
+
     #mobile-nav-table {
         width: 100%;
         height: fit-content;
         top: 65px;
     }
+
     #mobile-profile-pic {
         background-image: url("../images/home/snyork_profile_pic.jpg");
         background-size: 100px;
@@ -36,34 +38,38 @@
         border-radius: 50%;
         box-shadow: inset 0 0 20px #666;
         border: 2px solid #2e88d6;
-        margin-bottom: -10px;  
+        margin-bottom: -10px;
     }
+
     .mobile-nav-blocks {
         width: 100vw;
         height: fit-content;
         align-items: center;
         text-align: center;
-        background: linear-gradient(0deg, rgb(154, 154, 154) 0%, rgba(212,212,212,1) 10%, rgb(255, 255, 255) 40%, rgb(255, 255, 255) 60%, rgba(212,212,212,1) 90%, rgba(154, 154, 154,1) 100%);
+        background: linear-gradient(0deg, rgb(154, 154, 154) 0%, rgba(212, 212, 212, 1) 10%, rgb(255, 255, 255) 40%, rgb(255, 255, 255) 60%, rgba(212, 212, 212, 1) 90%, rgba(154, 154, 154, 1) 100%);
         /* background: linear-gradient(0deg, rgba(68,111,149,100) 0%, #0070d2 15%, #63a0d5 30%, #63a0d5 70%, #0070d2 85%, rgba(68,111,149,100) 100%); */
         font-size: 28px;
         font-weight: 600;
         color: #245f92;
-        border-bottom: 1px solid  rgb(48, 52, 71);
+        border-bottom: 1px solid rgb(48, 52, 71);
         padding: 25px 0;
     }
+
     #mobile-nav-profile-section {
         /* background: linear-gradient(0deg, rgba(122,122,122,1) 0%, rgba(212,212,212,1) 10%, rgba(230,232,242,1) 40%, rgba(230,232,242,1) 60%, rgba(212,212,212,1) 90%, rgba(122,122,122,1) 100%); */
         background: linear-gradient(0deg, #0070d2 0%, #4c94d4 10%, #4c94d4 90%, #0070d2 100%);
         /* background: linear-gradient(0deg, rgba(172,125,64,1) 0%, #e98300 8%, #f0b31d 30%, #f0b31d 70%, #e98300 92%, rgba(172,125,64,1) 100%); */
         padding: 20px 0 10px;
-        border-bottom: 4px solid  rgb(48, 52, 71);
+        border-bottom: 4px solid rgb(48, 52, 71);
     }
-    #mobile-nav-social-section{
+
+    #mobile-nav-social-section {
         width: 100%;
         height: fit-content;
         padding-bottom: 20px;
         /* background: linear-gradient(0deg, rgb(60, 60, 60) 0%, rgb(97, 97, 97) 10%, rgba(97, 97, 97) 90%, rgb(60, 60, 60) 100%); */
     }
+
     .social-icon {
         margin-top: -10px;
         width: 60px;
@@ -77,7 +83,7 @@
 
     /* MOBILE MAIN SECTION */
 
-    #mobile-main-section{
+    #mobile-main-section {
         width: 100%;
         display: block;
         position: absolute;
@@ -95,12 +101,12 @@
         vertical-align: middle;
         color: white;
         padding: 15px 10px;
-        background: linear-gradient(0deg, rgba(68,111,149,100) 0%, #0070d2 5%, #4c94d4 15%, #4c94d4 85%, #0070d2 95%, rgba(68,111,149,100) 100%);
-        border-bottom: 4px solid  rgb(48, 52, 71);
+        background: linear-gradient(0deg, rgba(68, 111, 149, 100) 0%, #0070d2 5%, #4c94d4 15%, #4c94d4 85%, #0070d2 95%, rgba(68, 111, 149, 100) 100%);
+        border-bottom: 4px solid rgb(48, 52, 71);
         /* background: linear-gradient(#c46f00, #d79f11, #d79f11, #c46f00); */
         /* background-color: #e98300; */
     }
-    
+
     .mobile-main-blocks {
         position: relative;
         width: 100%;
@@ -110,12 +116,12 @@
         vertical-align: middle;
         color: #245f92;
         padding: 25px 10px;
-        background: linear-gradient(0deg, rgb(154, 154, 154) 0%, rgba(212,212,212,1) 10%, rgb(255, 255, 255) 40%, rgb(255, 255, 255) 60%, rgba(212,212,212,1) 90%, rgba(154, 154, 154,1) 100%);
+        background: linear-gradient(0deg, rgb(154, 154, 154) 0%, rgba(212, 212, 212, 1) 10%, rgb(255, 255, 255) 40%, rgb(255, 255, 255) 60%, rgba(212, 212, 212, 1) 90%, rgba(154, 154, 154, 1) 100%);
         border-bottom: 2px solid #000;
         z-index: 7;
     }
 
-    #mobile-main-section td{
+    #mobile-main-section td {
         width: 100vw;
     }
 
@@ -127,9 +133,9 @@
         color: #fff;
         padding: 30px 15px;
         animation: slideDown 1s;
-        background: linear-gradient(0deg,  rgb(30, 32, 44) 0%,  rgb(58, 62, 84) 10%,  rgb(58, 62, 84) 90%,  rgb(30, 32, 44) 100%);
+        background: linear-gradient(0deg, rgb(30, 32, 44) 0%, rgb(58, 62, 84) 10%, rgb(58, 62, 84) 90%, rgb(30, 32, 44) 100%);
         z-index: 1;
-   }
+    }
 
 
 
@@ -141,6 +147,7 @@
         text-align: center;
         z-index: 10;
     }
+
     #footer_section {
         width: 90%;
         margin: -5px 0;
