@@ -1,13 +1,13 @@
 /* ANIMATIONS */
 @keyframes slideDown {
     0% {
-        /* opacity: 0; */
+        opacity: 0;
         transform: translateY(-100%);
         z-index: 1;
     }
 
-    20% {
-        /* opacity: 1; */
+    30% {
+        opacity: 1;
         transform: translateY(0);
         z-index: 1;
     }
