@@ -14,12 +14,12 @@
     #mobile-nav-menu {
         display: none;
         position: absolute;
-        top: 80px;
+        top: 75px;
         width: 100vw;
         height: fit-content;
         align-items: center;
         padding: 0 0 60px;
-        animation: slideDown .5s;
+        animation: slideDown .3s;
         background-color: rgb(48, 52, 71);
         z-index: 8;
     }
@@ -87,7 +87,7 @@
         width: 100%;
         display: block;
         position: absolute;
-        top: 80px;
+        top: 75px;
         padding-bottom: 50px;
         background-color: rgb(48, 52, 71);
         z-index: 1;
@@ -134,7 +134,7 @@
         text-align: center;
         color: #fff;
         padding: 30px 15px;
-        animation: growFromMiddle .2s;
+        animation: slideDown .1s;
         background: linear-gradient(0deg, rgb(30, 32, 44) 0%, rgb(58, 62, 84) 10%, rgb(58, 62, 84) 90%, rgb(30, 32, 44) 100%);
         z-index: 1;
     }
