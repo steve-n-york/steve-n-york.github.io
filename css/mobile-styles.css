@@ -136,9 +136,9 @@
         text-align: center;
         color: #fff;
         padding: 30px 15px;
-        animation: slideDown .2s;
+        animation: growFromMiddle .2s;
         background: linear-gradient(0deg, rgb(30, 32, 44) 0%, rgb(58, 62, 84) 10%, rgb(58, 62, 84) 90%, rgb(30, 32, 44) 100%);
-        z-index: 1;
+        z-index: 0;
     }
 
 
