@@ -1,16 +1,179 @@
+<!doctype html>
 <html>
-    <body>
-        <form action="http://cl.s50.exct.net/DEManager.aspx" name="subscribeForm" method="post">
-            <input type="hidden" name="_clientID" value="510005788" />
-            <input type="hidden" name="_deExternalKey" value="SNY_Test" />
-            <input type="hidden" name="_action" value="add" />
-            <input type="hidden" name="_returnXML" value="0" />
-            <input type="hidden" name="_successURL" value="https://example.com/Success" />
-            <input type="hidden" name="_errorURL" value="https://example.com/Failed" />
-            Email: <input type="text" name="Email"><br />
-            First Name: <input type="text" name="FirstName"><br />
-            Last Name: <input type="text" name="LastName"><br />
-            <input type="submit" value="Submit">
-        </form>
-    </body>
+<head>
+ <meta charset="utf-8">
+ <title></title>
+ <meta name="description" content="">
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+  <form action="http://cl.s11.exct.net/DEManager.aspx" id="subscribeForm" name="subscribeForm" method="post">
+	<input type="hidden" name="_clientID" value="<<Account Number>>" />
+	<input type="hidden" name="_deExternalKey" value="<<DE External Key>>" />
+	<input type="hidden" name="_action" value="add" />
+	<input type="hidden" name="_returnXML" value="0" />
+	<input type="hidden" name="_successURL" value="http://example.com/Success" />
+	<input type="hidden" name="_errorURL" value="http://example.com/Failed" />
+	<input type="hidden" name="SegmentPrimary" value="" />
+    
+	<label for="Email">Email:<sup>*</sup> </label><input type="text" name="Email" />
+	<br><br>
+
+	<label for="NameFirst">First Name"<sup>*</sup> </label><input type="text" name="NameFirst" />   
+	<br><br>
+
+	<label for="NameLast">Last Name: </label><input type="text" name="NameLast" />
+	<br><br>
+
+	<label for="Email">Sex: </label>
+	<select name="Sex">
+    	<option value="">--</option>
+    	<option value="Female">Female</option>
+    	<option value="Male">Male</option>
+    	<option value="Prefer not to say">Prefer not to say</option>
+	</select>       	 
+	<br><br>
+
+	<label for="PhoneMobile">Mobile Phone: </label><input type="text" name="PhoneMobile" />
+	<br><br>
+
+	<label for="Caregiver">Caregiver: </label>
+	<select name="Caregiver">
+    	<option value="">--</option>
+    	<option value="True">True</option>
+    	<option value="False">False</option>
+	</select>       	 
+	<br><br>
+    
+	<label for="Diagnosed">Diagnosed: </label>
+	<select name="Diagnosed">
+    	<option value="">--</option>
+    	<option value="True">True</option>
+    	<option value="False">False</option>
+	</select>       	 
+	<br><br>
+    
+	<label for="TreatingNow">Treating Now: </label>
+	<select name="TreatingNow">
+    	<option value="">--</option>
+    	<option value="True">True</option>
+    	<option value="False">False</option>
+	</select>       	 
+	<br><br>
+    
+	<label for="TreatedPast">Treated Past: </label>
+	<select name="TreatedPast">
+    	<option value="">--</option>
+    	<option value="True">True</option>
+    	<option value="False">False</option>
+	</select>       	 
+	<br><br>
+    
+	<label for="CurrentTxInfusion">Current Tx Infusion: </label>
+	<select name="CurrentTxInfusion">
+    	<option value="">--</option>
+    	<option value="True">True</option>
+    	<option value="False">False</option>
+	</select>       	 
+	<br><br>
+    
+	<label for="PastTxInfusion">Past Tx Infusion: </label>
+	<select name="PastTxInfusion">
+    	<option value="">--</option>
+    	<option value="True">True</option>
+    	<option value="False">False</option>
+	</select>       	 
+	<br><br>
+    
+	<label for="CurrentTxOral">Current Tx Oral: </label>
+	<select name="CurrentTxOral">
+    	<option value="">--</option>
+    	<option value="True">True</option>
+    	<option value="False">False</option>
+	</select>       	 
+	<br><br>
+    
+	<label for="PastTxOral">Past Tx Oral: </label>
+	<select name="PastTxOral">
+    	<option value="">--</option>
+    	<option value="True">True</option>
+    	<option value="False">False</option>
+	</select>       	 
+	<br><br>
+    
+	<label for="DiseaseProgression">Disease Progression: </label>
+	<select name="DiseaseProgression">
+    	<option value="">--</option>
+    	<option value="True">True</option>
+    	<option value="False">False</option>
+	</select>       	 
+	<br><br>
+    
+	<label for="DailyPain">Daily Pain: </label>
+	<select name="DailyPain">
+    	<option value="">--</option>
+    	<option value="True">True</option>
+    	<option value="False">False</option>
+	</select>       	 
+	<br><br>
+    
+	<label for="DailySymptoms">Daily Symptoms: </label>
+	<select name="DailySymptoms">
+    	<option value="">--</option>
+    	<option value="True">True</option>
+    	<option value="False">False</option>
+	</select>       	 
+	<br><br>
+    
+	<label for="InfusionADA">Infusion ADA: </label>
+	<select name="InfusionADA">
+    	<option value="">--</option>
+    	<option value="True">True</option>
+    	<option value="False">False</option>
+	</select>       	 
+	<br><br>
+    
+	<label for="InfusionIRR">Infusion IRR: </label>
+	<select name="InfusionIRR">
+    	<option value="">--</option>
+    	<option value="True">True</option>
+    	<option value="False">False</option>
+	</select>       	 
+	<br><br>
+    
+	<label for="InfusionSideEffects">Infusion Side Effects: </label>
+	<select name="InfusionSideEffects">
+    	<option value="">--</option>
+    	<option value="True">True</option>
+    	<option value="False">False</option>
+	</select>       	 
+	<br><br>
+    
+	<label for="InfusionBurden">Infusion Burden: </label>
+	<select name="InfusionBurden">
+    	<option value="">--</option>
+    	<option value="1">1</option>
+    	<option value="2">2</option>
+    	<option value="3">3</option>
+    	<option value="4">4</option>
+    	<option value="5">5</option>
+	</select>       	 
+	<br><br>
+
+	<label for="OralMedTolerance">Oral Med Tolerance: </label>
+	<select name="OralMedTolerance">
+    	<option value="">--</option>
+    	<option value="True">True</option>
+    	<option value="False">False</option>
+	</select>       	 
+	<br><br>
+    
+	<label for="Email">Opt In: </label><input type="checkbox" name="Optin" />
+	<br><br>
+	<input type="submit" value="Submit">
+
+</form>
+</body>
 </html>
+
+
